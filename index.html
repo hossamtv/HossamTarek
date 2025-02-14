@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>موقع شخصي</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000;
+            color: white;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+        }
+        .toggle-section {
+            display: none;
+            background-color: #121212;
+            padding: 20px;
+            border-radius: 10px;
+            width: 80%;
+        }
+        .toggle-btn {
+            background-color: white;
+            color: black;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+        .toggle-btn:hover {
+            background-color: #949494;
+           transform: scale(1.05);
+        }
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+        .social-icons a img {
+            width: 35px;
+            transition: transform 0.3s;
+        }
+        .social-icons a img:hover {
+            transform: scale(1.2);
+        }
+        .image img {
+            width: 250px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Hi, I'm Hossam Tarek</h1>
+        <p>Graphic designer & content creator 🎨✨</p>
+        <img src="https://lh3.googleusercontent.com/fife/ALs6j_Gc8zie6-Ll1SNBAemhyLPjBAWMj3ea59_7rT0oMMiaKywyQzL4SmU7smxyC2HqHA38wK4Z7jeV2GtnC0OOcAnua11yNQI0zR9x2lU1YCzJ6AQTKp1Nti-kEdhjyFrtjqUH3UaJZPnfps8whUdLr9TorATxFkWzmUgelAh4wBDnAKiHlpF4Pk2H65lDmbMw5HS8Qo_L5i0eGdFlM92N8ULAYBw1KKOdiem_Ig1x5OTvdstvCrbD5vfzyF5C2G3trn3d98xfIydmSSkwLAGqu5hUTr2GCjZ7pujuGF4XE2AZuZnAwxZVcQfeyMn_Nt2LdkVqZmIWaANtZBCZFMw4Cy1EsjUZOejmlu172uOuZf3nHusTLRh1pBczMMSTHsjNac20YCXjXUyDvmkBsCpdJRaHIqKr3YP9LzXqwa8oiWW2R0N8FeBhyFUiFMQq7gr_iZLQ68R0uhUuEfgVlBtQFtYbmDUJDsixPLI9jfebgSr-cYdxNWKWRKCOvzZW9UjJyzneL_YwgnkfqTX1HteVQ0kfr9VevHcz4USz4_WgwuMI0Li0-sh1Km6HB_-bJcDryGfNGZnHv5upF8XG7O2ff0oASG5FNglobFd7RiGiAsx2Pq1e_sCtXWWmbOQMonq_0l4SfDJ5C5KdjhCosGEfEWB7HjPfaeCenUcYZ-DCHbeVNvq8BRwcT7O7krqMH1jABAdQTk-XZnOXdlgjtorLEL8_C1hkv8oPg1XaPFuD_LgB4q2poQkkOtr283GGrMCXRgsEjaT8dyKDDdX6G6O5szjLBRlupVf0N8qz7c_d1sN69YJaLY6gXavVhR-j6BGlE9POezRAHTqpbE_uGo_07pqCEsiJZ51DCejd_ZLufnIamzsv9y3H8_tbBiXluz2dMsHyBXk9LesN_BtbfVYp2a7tFhfKy7MuzbCLzcIZqzhhB0y_t0S1kDZcwQvxrwnO_CRykEqkuyyR0cwlhnc_ZisxeRAfIteq9OaRF-xAK1QxJcjGMQ_3J4FVcSPycR6uCZv2CrxpCV8VT0pIdmF104Kc5LjCDECj0ad8V7d8hdeumfsscLie5h_kQbd9PECvZdaT4q9tbVhdIZInE4MqbmbMVcnf2C2YBxfT-nchNlSgnSUimtwk4C-eQ-A99G4hoJbwzAKq0-qIL_rOPaX6z3qGqAzMWjUqm5BIHkwTFYEqSFAfxXP2biSa1-KmfPnv7R4ioZwMeDCD-Q_UwLC7G1h8IX0lwdX2wYPycsD4jiCbB8zcI2F9B2Gn4LGgIlM70HTBV2IUuxslocvmroyeJkCnm9tgl-E0po9Jirz1Y1a4tYfXQS4J8IWLCp5hLrwuoPG53SU6h8hRW0wPaHcHhDj_NcD9D8XC6MfhzbWRPAKQdFZP7r_YdpQX3BxxnXaEcp9GgHt9jgi-iZZw0hAqXTFzFgwo48UEnNbqoYuLiuoxU3elX2Ptxw0pZsLdMPT4GoYSe8_3ZNOqF1kz7sg3PfjIifpJl0bdF_Rhg3MEwoMKtT2Y7mXbvoWqUSntl1UHq4bAghrLX-uaKUlmMkZ95NiwQD0wRgLLysZZZw3tPXd_Hwub9U_XzAo5jaw5I6DqKJNmFCWhGSef_XLCKfA9rA=w1920-h919" height="500px" width="500px" alt="Hossam Tarek">
+        <button class="toggle-btn" onclick="toggleVisibility()">االتواصل الاجتماعي
+ إظهار/إخفاء</button>
+        <div class="toggle-section" id="toggleContent">
+          
+    <!-- قسم التواصل الاجتماعي -->
+    <section id="social" class="section">
+        <h2>التواصل الاجتماعي</h2>
+        <div class="social-icons">
+          <a href="https://linktr.ee/hossam.tarek"><img src="https://cdn-icons-png.flaticon.com/512/5339/5339184.png" alt="Website"></a>
+            <a href="https://www.linkedin.com/in/hossam-tarek-b57627242/"><img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn"></a>
+            <a href="https://www.behance.net/hossam_tarek"><img src="https://cdn.worldvectorlogo.com/logos/behance-1.svg" alt="behance"></a>
+            <a href="#"><img src="https://img.freepik.com/free-vector/new-2023-twitter-logo-x-icon-design_1017-45418.jpg" alt="Twitter"></a>
+            <a href="https://www.instagram.com//hossam.tarek"><img src="https://static.vecteezy.com/system/resources/previews/016/716/448/large_2x/instagram-icon-free-png.png" alt="Instagram"></a>
+            <a href="https://www.youtube.com/@hossamtarekofficiall"><img src="https://static.vecteezy.com/system/resources/thumbnails/016/716/475/small_2x/youtube-icon-free-png.png" alt="YouTube"></a>
+            <a href="https://api.whatsapp.com/send/?phone=201067749188"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp"></a>
+            <a href="#"><img src="https://static.vecteezy.com/system/resources/thumbnails/016/716/481/small_2x/facebook-icon-free-png.png" alt="Facebook"></a>
+            <a href="#"><img src="https://www.svgrepo.com/show/353655/discord-icon.svg" alt="Discord"></a>
+	<a href="#"><img src="https://static.vecteezy.com/system/resources/thumbnails/016/716/485/small/tiktok-icon-free-png.png" alt="Tiktok"></a>
+        </div>
+    </section>
+        </div>
+    </div>
+    <script>
+        function toggleVisibility() {
+            var section = document.getElementById("toggleContent");
+            section.style.display = section.style.display === "none" ? "block" : "none";
+        }
+    </script>
+</body>
+</html>
